@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import TransitionLink from "../Navbar/TransitionLink";
 
 function Footer() {
     let footerLinks = ["works", "contact"];
@@ -9,9 +8,11 @@ function Footer() {
 
     return (
         <>
-            <footer className="h-[300px] border  grid grid-cols-3 py-16">
+            <footer className="h-[300px] border grid grid-cols-3 py-16">
                 <div className="logo border">
-                    <TransitionLink href="/" label={logo} />
+                    <Link href="/" className="capitalize text-lg">
+                        {logo}
+                    </Link>
                     <p className="py-2 pr-2 text-sm">
                         Leading Modern Digital Web Development Creation Agency
                     </p>
@@ -22,11 +23,18 @@ function Footer() {
                 <ul id="links" className="border">
                     <h2 className="pb-0.5">Main Links</h2>
                     <li key="Home">
-                        <TransitionLink href="/" label="Home" />
+                        <Link href="/" className="py-1 text-sm capitalize">
+                            Home
+                        </Link>
                     </li>
                     {footerLinks.map((link) => (
                         <li key={link}>
-                            <TransitionLink href={`/${link}`} label={link} />
+                            <Link
+                                href={`/${link}`}
+                                className="py-1 text-sm capitalize"
+                            >
+                                {link}
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -34,7 +42,10 @@ function Footer() {
                     <h2 className="pb-0.5">Socail Links</h2>
                     {footerSocail.map((link) => (
                         <li key={link}>
-                            <Link className="py-1 text-sm" href={`/${link}`}>
+                            <Link
+                                className="py-1 text-sm capitalize"
+                                href={`/${link}`}
+                            >
                                 {link}
                             </Link>
                         </li>

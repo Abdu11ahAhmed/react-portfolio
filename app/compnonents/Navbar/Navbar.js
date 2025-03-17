@@ -1,5 +1,5 @@
 "use client";
-import TransitionLink from "./TransitionLink";
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 function Navbar() {
@@ -14,13 +14,17 @@ function Navbar() {
     return (
         <>
             <nav className="h-[7.5vh] flex items-center justify-between px-[20px] xl:px-[40px] 2xl:px-[100px]">
-                <TransitionLink href="/" label={logo} className="bg-red-400" />
+                <Link href="/" className="text-lg">
+                    {logo}
+                </Link>
                 <ul className="flex">
                     <li
                         key="Home"
-                        className={isActive("/") ? "underline px-2" : "px-2"}
+                        className={isActive("/") ? "active px-2" : "px-2"}
                     >
-                        <TransitionLink href="/" label="Home" />
+                        <Link href="/" className="text-sm capitalize">
+                            Home
+                        </Link>
                     </li>
                     {NavLinks.map((link) => {
                         let href = `/${link.toLowerCase()}`;
@@ -28,10 +32,15 @@ function Navbar() {
                             <li
                                 key={link}
                                 className={
-                                    isActive(href) ? "underline px-2" : "px-2"
+                                    isActive(href) ? "active px-2" : " px-2"
                                 }
                             >
-                                <TransitionLink href={link} label={link} />
+                                <Link
+                                    href={link}
+                                    className="text-sm capitalize"
+                                >
+                                    {link}
+                                </Link>
                             </li>
                         );
                     })}
