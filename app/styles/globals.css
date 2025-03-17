@@ -20,6 +20,3 @@ body {
 p{
     color: #444444;
 }
-nav ul li.active{
-    text-decoration: underline;
-}
