@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+    --background: #e7e7e7;
+    --foreground: #171717;
+}
+::selection {
+    background: #171717;
+    color: #f9f9f9;
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --background: #212121;
+        --foreground: #ffffff;
+    }
+} */
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: averta;
+}
+p {
+    color: #444444;
+}
+nav ul li.active {
+    text-decoration: underline;
+}
+@font-face {
+    font-family: averta;
+    src: url(../fonts/AvertaRegular.ttf);
+}
+@font-face {
+    font-family: avertaBold;
+    src: url(../fonts/AvertaBolder.otf);
+}
+@font-face {
+    font-family: avertaSemi;
+    src: url(../fonts/AvertaSemibold.ttf);
+}

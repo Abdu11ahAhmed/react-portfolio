@@ -30,7 +30,7 @@ function Footer() {
                     {footerLinks.map((link) => (
                         <li key={link}>
                             <Link
-                                href={`/${link}`}
+                                href={`/pages/${link}`}
                                 className="py-1 text-sm capitalize"
                             >
                                 {link}
@@ -44,7 +44,7 @@ function Footer() {
                         <li key={link}>
                             <Link
                                 className="py-1 text-sm capitalize"
-                                href={`/${link}`}
+                                href={`/pages/${link}`}
                             >
                                 {link}
                             </Link>

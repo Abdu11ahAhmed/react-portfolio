@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            const minNum = 1;
+            const maxNum = 10;
+            const answer = Math.floor(Math.random() * maxNum);
+
+            let gusse = prompt(
+                `Enter a number between ${minNum} and ${maxNum}`
+            );
+            let running = true;
+
+            while (running) {
+                gusse = Number(gusse);
+
+                if (isNaN(gusse)) {
+                    alert("Please Enter A Valid Number");
+                } else if (gusse > maxNum || gusse < minNum) {
+                    alert(`Enter a number between ${minNum} and ${maxNum}`);
+                } else if (gusse === answer) {
+                    alert("Good Work");
+                    running = false;
+                } else {
+                    alert("Not Matched");
+                    running = false;
+                }
+            }
+
+            console.log(answer);
+        </script>
+    </body>
+</html>
