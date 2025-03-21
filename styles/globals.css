@@ -21,9 +21,9 @@ body {
     color: var(--foreground);
     font-family: averta;
 }
-p {
+/* p {
     color: #444444;
-}
+} */
 nav ul li.active {
     text-decoration: underline;
 }

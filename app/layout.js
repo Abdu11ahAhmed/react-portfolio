@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body>
                 <Navbar />
-                <div className="container px-[20px] xl:px-[40px] 2xl:px-[100px] border mx-auto h-[calc(100vh-7.5vh)]">
+                <div className="container px-[20px] xl:px-[40px] 2xl:px-[100px] border mx-auto min-h-[calc(100vh-7.5vh)]">
                     {children}
                     <Footer />
                 </div>
