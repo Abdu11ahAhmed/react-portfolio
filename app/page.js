@@ -7,8 +7,8 @@ import { Parallax } from "react-scroll-parallax";
 export default function Home() {
     return (
         <>
-            <div className="content min-h-[calc(100vh-300px-7.5vh)] border">
-                <div className="sectionOne border relative  w-full flex items-start flex-col justify-center mb-[50px] xl:mb-[100px] 2xl:mb-[200px] h-[400px] md:h-[unset]">
+            <div className="content min-h-[calc(100vh-300px-7.5vh)] ">
+                <div className="sectionOne  relative  w-full flex items-start flex-col justify-center mb-[50px] xl:mb-[100px] 2xl:mb-[200px] h-[400px] md:h-[unset]">
                     <div className="upper h-[unset] md:h-[400px] lg:h-[500px] xl:h-[500px] 2xl:h-[700px] w-full flex justify-center flex-col">
                         <h6 id="tttteee" className="text-sm w-fit z-10">
                             We Make it happen
@@ -17,7 +17,7 @@ export default function Home() {
                             Apps <br /> Websites <br />
                             Branding
                         </h1>
-                        <div className="hidden md:flex justify-between w-full">
+                        <ul className="hidden md:flex justify-between w-full">
                             <li>
                                 <h1
                                     className="md:text-[60px] lg:text-[75px] xl:text-[90px] 2xl:text-[110px] font-[avertaSemi] text-transparent leading-[100%]"
@@ -42,7 +42,7 @@ export default function Home() {
                                     Branding
                                 </h1>
                             </li>
-                        </div>
+                        </ul>
                     </div>
                     <div className="lower">
                         <p className="md:text-2xl">
@@ -57,8 +57,8 @@ export default function Home() {
                 </div>
                 {/* section One  */}
 
-                <div className="sectionTwo border relative w-full flex items-start flex-col justify-center  mb-[50px] xl:mb-[100px] 2xl:mb-[200px]">
-                    <header className=" border w-full py-3.5 mb-3.5 lg:py-8 lg:mb-5">
+                <div className="sectionTwo  relative w-full flex items-start flex-col justify-center  mb-[50px] xl:mb-[100px] 2xl:mb-[200px]">
+                    <header className="  w-full py-3.5 mb-3.5 lg:py-8 lg:mb-5">
                         <h2 className=" text-2xl md:text-4xl">
                             Our
                             <br /> Works
@@ -162,9 +162,9 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="content border w-full grid lg:grid-cols-2 lg:gap-5 xl:hidden">
-                        <div className="project border mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] lg:w-[unset] mx-auto md:h-[500px] xl:min-h-[1000px]">
-                            <div className="text border flex items-start justify-center flex-col xl:pl-[130px]">
+                    <div className="content  w-full grid md:grid-cols-2 md:gap-5 xl:hidden">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                            <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
@@ -172,7 +172,7 @@ export default function Home() {
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
-                            <div className="image border overflow-hidden">
+                            <div className="image  overflow-hidden">
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
@@ -180,14 +180,14 @@ export default function Home() {
                                             height={100}
                                             width={100}
                                             alt="projects images"
-                                            className="h-full w-full object-cover"
+                                            className="h-full w-full object-cover object-top"
                                         />
                                     </Parallax>
                                 </ParallaxProvider>
                             </div>
                         </div>
-                        <div className="project border mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] lg:w-[unset] mx-auto md:h-[500px] xl:min-h-[1000px]">
-                            <div className="text border flex items-start justify-center flex-col xl:pl-[130px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                            <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
@@ -195,7 +195,7 @@ export default function Home() {
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
-                            <div className="image border overflow-hidden">
+                            <div className="image  overflow-hidden">
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
@@ -203,14 +203,14 @@ export default function Home() {
                                             height={100}
                                             width={100}
                                             alt="projects images"
-                                            className="h-full w-full object-cover"
+                                            className="h-full w-full object-cover object-top"
                                         />
                                     </Parallax>
                                 </ParallaxProvider>
                             </div>
                         </div>
-                        <div className="project border mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] lg:w-[unset] mx-auto md:h-[500px] xl:min-h-[1000px]">
-                            <div className="text border flex items-start justify-center flex-col xl:pl-[130px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                            <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
@@ -218,7 +218,7 @@ export default function Home() {
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
-                            <div className="image border overflow-hidden">
+                            <div className="image  overflow-hidden">
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
@@ -226,14 +226,14 @@ export default function Home() {
                                             height={100}
                                             width={100}
                                             alt="projects images"
-                                            className="h-full w-full object-cover"
+                                            className="h-full w-full object-cover object-top"
                                         />
                                     </Parallax>
                                 </ParallaxProvider>
                             </div>
                         </div>
-                        <div className="project border mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] lg:w-[unset] mx-auto md:h-[500px] xl:min-h-[1000px]">
-                            <div className="text border flex items-start justify-center flex-col xl:pl-[130px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                            <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
@@ -241,7 +241,7 @@ export default function Home() {
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
-                            <div className="image border overflow-hidden">
+                            <div className="image  overflow-hidden">
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
@@ -249,7 +249,7 @@ export default function Home() {
                                             height={100}
                                             width={100}
                                             alt="projects images"
-                                            className="h-full w-full object-cover"
+                                            className="h-full w-full object-cover object-top"
                                         />
                                     </Parallax>
                                 </ParallaxProvider>
@@ -258,7 +258,7 @@ export default function Home() {
                     </div>
                     <Link
                         href="/"
-                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:border-[var(--foreground)] hover:scale-[0.95]"
+                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:-[var(--foreground)] hover:scale-[0.95]"
                         style={{
                             padding: "0.7rem 1.5rem",
                             margin: "50px auto",
@@ -272,15 +272,17 @@ export default function Home() {
                 {/* section Two  */}
 
                 <div className="sectionThree relative w-full flex items-start flex-col justify-center mb-[50px] xl:mb-[100px] 2xl:mb-[200px]">
-                    <header className=" w-full py-8 mb-5">
-                        <h2 className="text-4xl">
+                    <header className="  w-full py-3.5 mb-3.5 lg:py-8 lg:mb-5">
+                        <h2 className=" text-2xl md:text-4xl">
                             About <br />
                             Us
                         </h2>
                     </header>
-                    <div className="content w-full grid grid-cols-2">
-                        <h4 className="text-3xl">Info</h4>
-                        <p className="text-2xl">
+                    <div className="content w-full md:grid md:grid-cols-2">
+                        <h4 className="text-xl pb-2.5 md:text-2xl lg:text-3xl">
+                            Info
+                        </h4>
+                        <p className="lg:text-xl">
                             We aim to be the investors we wished we had when we
                             started out. Lightning-fast, always on your side and
                             fundamentally helpful. our knowledge is your
@@ -291,7 +293,7 @@ export default function Home() {
                     </div>
                     <Link
                         href="/"
-                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:border-[var(--foreground)] hover:scale-[0.95]"
+                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:-[var(--foreground)] hover:scale-[0.95]"
                         style={{
                             padding: "0.7rem 1.5rem",
                             margin: "50px auto",
@@ -304,18 +306,18 @@ export default function Home() {
                 </div>
                 {/* section Three  */}
 
-                {/* <div className="sectionFour relative w-full flex items-start flex-col justify-center  mb-[100px]">
-                    <header className=" w-full py-8 mb-5">
-                        <h2 className="text-4xl">
+                <div className="sectionFour relative w-full flex items-start flex-col justify-center mb-[50px] xl:mb-[100px] 2xl:mb-[200px]">
+                    <header className="  w-full py-3.5 mb-3.5 lg:py-8 lg:mb-5">
+                        <h2 className=" text-2xl md:text-4xl">
                             Our <br />
                             Services
                         </h2>
                     </header>
-                    <div className="content w-full grid grid-cols-2">
-                        <h4 className="text-3xl">
+                    <div className="content w-full md:grid md:grid-cols-2">
+                        <h4 className="text-xl pb-2.5 md:text-2xl lg:text-3xl">
                             Customzed For <br /> Your needs
                         </h4>
-                        <p className="text-2xl">
+                        <p className="lg:text-xl">
                             We're driven by user‑centered design that drives
                             productivity and increases revenue. Our expertise
                             and ingenuity are remarkable, yet we always strive
@@ -324,7 +326,7 @@ export default function Home() {
                     </div>
                     <Link
                         href="/"
-                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:border-[var(--foreground)] hover:scale-[0.95]"
+                        className="border-2 rounded-full hover:text-[var(--background)] hover:bg-[var(--foreground)] hover:border-2 hover:-[var(--foreground)] hover:scale-[0.95]"
                         style={{
                             padding: "0.7rem 1.5rem",
                             margin: "50px auto",
@@ -334,7 +336,7 @@ export default function Home() {
                     >
                         More About US
                     </Link>
-                </div> */}
+                </div>
                 {/* section Four  */}
             </div>
         </>

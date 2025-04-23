@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
             <body>
                 <LenisProvider>
                     <Navbar />
-                    <div className="container border px-[20px] lg:px-[40px] xl:px-[100px] mx-auto min-h-[calc(100vh-7.5vh)]">
+                    <div className="container px-[20px] lg:px-[40px] xl:px-[100px] mx-auto min-h-[calc(100vh-7.5vh)]">
                         {children}
                         <Footer />
                     </div>
