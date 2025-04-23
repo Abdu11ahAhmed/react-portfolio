@@ -1,29 +1,60 @@
 @import "tailwindcss";
 
-:root {
-    --background: #e7e7e7;
-    --foreground: #171717;
+* {
+    list-style: none;
 }
-::selection {
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    background: var(--foreground);
+    border-radius: 10000px;
+}
+body::selection {
     background: #171717;
     color: #f9f9f9;
 }
-
-/* @media (prefers-color-scheme: dark) {
-    :root {
-        --background: #212121;
-        --foreground: #ffffff;
-    }
-} */
+body.active::selection {
+    color: #070707;
+    background: #f9f9f9;
+}
 
 body {
+    --background: #ffffff;
+    --foreground: #171717;
+    --fff: 1px #171717;
     background: var(--background);
     color: var(--foreground);
     font-family: averta;
+    transition: 0.5s ease background, 1s ease border;
 }
-/* p {
-    color: #444444;
-} */
+body.active {
+    --background: #222222;
+    --foreground: #ffffff;
+    --fff: 1px #c7c7c7;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: averta;
+    transition: 0.5s ease background, 0.5s ease border;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+b,
+span {
+    transition: 1s ease color, 1s ease -webkit-text-stroke;
+}
+a{
+    transition: 1s ease color, .5s scale ease, .5s background, 1s ease border;
+}
+
 nav ul li.active {
     text-decoration: underline;
 }
