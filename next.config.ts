@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
 };
 
 module.exports = {
-    basePath: "/page",
+    basePath: "/app/page.js",
 };
 
 export default nextConfig;
