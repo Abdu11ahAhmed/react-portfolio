@@ -67,19 +67,18 @@ export default function Home() {
                     <div className="content w-full hidden xl:block ">
                         <div className="project grid grid-cols-2 2xl:min-h-[1000px]">
                             <div className="text flex items-start justify-center flex-col pl-[130px]">
-                                <h3 className="text-3xl pb-2.5">
-                                    Project Name
-                                </h3>
+                                <h3 className="text-3xl pb-2.5">Nobleman</h3>
                                 <p className="leading-5">
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    <br /> adipisicing elit. Rerum, temporibus.
+                                    Nobleman | Luxury & Lifestyle <br />
+                                    is a website for give a luxury experiance
+                                    <br /> for selling Luxury
                                 </p>
                             </div>
                             <div className="image overflow-hidden">
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/1.jpg"
+                                            src="/images/nobleman.png"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -94,7 +93,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/2.jpg"
+                                            src="/images/nft_1.png"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -105,11 +104,14 @@ export default function Home() {
                             </div>
                             <div className="text flex items-start justify-center flex-col pl-[130px]">
                                 <h3 className="text-3xl pb-2.5">
-                                    Project Name
+                                    NFT Marketplace
                                 </h3>
                                 <p className="leading-5">
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    <br /> adipisicing elit. Rerum, temporibus.
+                                    Nft Marketplace Ui Created With Anima For{" "}
+                                    <br />
+                                    Figma. Collect, Buy And Sell Art From More{" "}
+                                    <br />
+                                    Than 20k Nft Artists.
                                 </p>
                             </div>
                         </div>
@@ -127,7 +129,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/3.jpg"
+                                            src="/images/Shopify sites.png"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -142,7 +144,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/4.jpg"
+                                            src="/images/project4.jpg"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -153,11 +155,11 @@ export default function Home() {
                             </div>
                             <div className="text flex items-start justify-center flex-col pl-[130px]">
                                 <h3 className="text-3xl pb-2.5">
-                                    Project Name
+                                    Gaming Website
                                 </h3>
                                 <p className="leading-5">
-                                    Lorem ipsum dolor sit amet consectetur,
-                                    <br /> adipisicing elit. Rerum, temporibus.
+                                    A full screen login & sign up <br />
+                                    for a gaming website
                                 </p>
                             </div>
                         </div>
@@ -173,17 +175,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
-                                <ParallaxProvider>
-                                    <Parallax speed={-12.5}>
-                                        <Image
-                                            src="/1.jpg"
-                                            height={100}
-                                            width={100}
-                                            alt="projects images"
-                                            className="h-full w-full object-cover object-top"
-                                        />
-                                    </Parallax>
-                                </ParallaxProvider>
+                                <Image
+                                    src="/images/nobleman.png"
+                                    height={100}
+                                    width={100}
+                                    alt="projects images"
+                                    className="h-full w-full object-cover"
+                                />
                             </div>
                         </div>
                         <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
@@ -196,17 +194,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
-                                <ParallaxProvider>
-                                    <Parallax speed={-12.5}>
-                                        <Image
-                                            src="/2.jpg"
-                                            height={100}
-                                            width={100}
-                                            alt="projects images"
-                                            className="h-full w-full object-cover object-top"
-                                        />
-                                    </Parallax>
-                                </ParallaxProvider>
+                                <Image
+                                    src="/images/nft_1.png"
+                                    height={100}
+                                    width={100}
+                                    alt="projects images"
+                                    className="h-full w-full object-cover"
+                                />
                             </div>
                         </div>
                         <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
@@ -219,17 +213,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
-                                <ParallaxProvider>
-                                    <Parallax speed={-12.5}>
-                                        <Image
-                                            src="/3.jpg"
-                                            height={100}
-                                            width={100}
-                                            alt="projects images"
-                                            className="h-full w-full object-cover object-top"
-                                        />
-                                    </Parallax>
-                                </ParallaxProvider>
+                                <Image
+                                    src="/images/shopify sites.png"
+                                    height={100}
+                                    width={100}
+                                    alt="projects images"
+                                    className="h-full w-full object-cover"
+                                />
                             </div>
                         </div>
                         <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
@@ -242,17 +232,13 @@ export default function Home() {
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
-                                <ParallaxProvider>
-                                    <Parallax speed={-12.5}>
-                                        <Image
-                                            src="/4.jpg"
-                                            height={100}
-                                            width={100}
-                                            alt="projects images"
-                                            className="h-full w-full object-cover object-top"
-                                        />
-                                    </Parallax>
-                                </ParallaxProvider>
+                                <Image
+                                    src="/images/project4.jpg"
+                                    height={100}
+                                    width={100}
+                                    alt="projects images"
+                                    className="h-full w-full object-cover"
+                                />
                             </div>
                         </div>
                     </div>
