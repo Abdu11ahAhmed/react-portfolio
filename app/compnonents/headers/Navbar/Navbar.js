@@ -54,7 +54,7 @@ function Navbar() {
                         </li>
                     );
                 })}
-                <div
+                <li
                     className="theme border h-[18px] w-[35px] rounded-full cursor-pointer relative ml-2"
                     onClick={themeClick}
                 >
@@ -66,7 +66,7 @@ function Navbar() {
                             transition: "1s ease right, 1s ease left",
                         }}
                     ></div>
-                </div>
+                </li>
             </ul>
         </nav>
     );

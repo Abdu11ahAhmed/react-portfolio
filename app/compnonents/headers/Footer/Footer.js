@@ -10,7 +10,7 @@ function Footer() {
         <>
             <footer className="h-[300px] border grid grid-cols-3 py-16">
                 <div className="logo border">
-                    <Link href="/" className="capitalize text-lg">
+                    <Link href="/" className="capitalize text-lg leading-0">
                         {logo}
                     </Link>
                     <p className="py-2 pr-2 text-sm">
@@ -21,7 +21,7 @@ function Footer() {
                     </p>
                 </div>
                 <ul id="links" className="border">
-                    <h2 className="pb-0.5">Main Links</h2>
+                    <li className="pb-0.5">Main Links</li>
                     <li key="Home">
                         <Link href="/" className="py-1 text-sm capitalize">
                             Home
@@ -39,7 +39,7 @@ function Footer() {
                     ))}
                 </ul>
                 <ul className="border">
-                    <h2 className="pb-0.5">Socail Links</h2>
+                    <li className="pb-0.5">Socail Links</li>
                     {footerSocail.map((link) => (
                         <li key={link}>
                             <Link

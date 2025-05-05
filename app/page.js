@@ -78,7 +78,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/images/nobleman.png"
+                                            src="/images/nobleman.avif"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -93,7 +93,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/images/nft_1.png"
+                                            src="/images/nft_1.avif"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -107,9 +107,9 @@ export default function Home() {
                                     NFT Marketplace
                                 </h3>
                                 <p className="leading-5">
-                                    Nft Marketplace Ui Created With Anima For{" "}
+                                    Nft Marketplace Ui Created With Anima For
                                     <br />
-                                    Figma. Collect, Buy And Sell Art From More{" "}
+                                    Figma. Collect, Buy And Sell Art From More
                                     <br />
                                     Than 20k Nft Artists.
                                 </p>
@@ -129,7 +129,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/images/Shopify sites.png"
+                                            src="/images/Shopify sites.avif"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -144,7 +144,7 @@ export default function Home() {
                                 <ParallaxProvider>
                                     <Parallax speed={-12.5}>
                                         <Image
-                                            src="/images/project4.jpg"
+                                            src="/images/project4.avif"
                                             height={100}
                                             width={100}
                                             alt="projects images"
@@ -170,13 +170,13 @@ export default function Home() {
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
-                                    <br className="hidden sm:flex" />{" "}
+                                    <br className="hidden sm:flex" />
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
                                 <Image
-                                    src="/images/nobleman.png"
+                                    src="/images/nobleman.avif"
                                     height={100}
                                     width={100}
                                     alt="projects images"
@@ -189,13 +189,13 @@ export default function Home() {
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
-                                    <br className="hidden sm:flex" />{" "}
+                                    <br className="hidden sm:flex" />
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
                                 <Image
-                                    src="/images/nft_1.png"
+                                    src="/images/nft_1.avif"
                                     height={100}
                                     width={100}
                                     alt="projects images"
@@ -208,13 +208,13 @@ export default function Home() {
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
-                                    <br className="hidden sm:flex" />{" "}
+                                    <br className="hidden sm:flex" />
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
                                 <Image
-                                    src="/images/shopify sites.png"
+                                    src="/images/shopify sites.avif"
                                     height={100}
                                     width={100}
                                     alt="projects images"
@@ -227,13 +227,13 @@ export default function Home() {
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
                                     Lorem ipsum dolor sit amet consectetur,
-                                    <br className="hidden sm:flex" />{" "}
+                                    <br className="hidden sm:flex" />
                                     adipisicing elit. Rerum, temporibus.
                                 </p>
                             </div>
                             <div className="image  overflow-hidden">
                                 <Image
-                                    src="/images/project4.jpg"
+                                    src="/images/project4.avif"
                                     height={100}
                                     width={100}
                                     alt="projects images"
