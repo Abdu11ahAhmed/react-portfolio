@@ -4,10 +4,10 @@
     list-style: none;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
     background: var(--foreground);
     border-radius: 10000px;
 }
@@ -24,6 +24,7 @@ body {
     --background: #ffffff;
     --foreground: #171717;
     --fff: 1px #171717;
+    --overlay--: #ddd;
     background: var(--background);
     color: var(--foreground);
     font-family: averta;
@@ -33,6 +34,7 @@ body.active {
     --background: #222222;
     --foreground: #ffffff;
     --fff: 1px #c7c7c7;
+    --overlay--: #8b8b8b;
     background: var(--background);
     color: var(--foreground);
     font-family: averta;
@@ -48,11 +50,14 @@ h6,
 p,
 a,
 b,
-span {
+span,
+input,
+textarea,
+input::placeholder {
     transition: 1s ease color, 1s ease -webkit-text-stroke;
 }
-a{
-    transition: 1s ease color, .5s scale ease, .5s background, 1s ease border;
+a {
+    transition: 1s ease color, 0.5s scale ease, 0.5s background, 1s ease border;
 }
 
 nav ul li.active {

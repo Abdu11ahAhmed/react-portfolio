@@ -165,7 +165,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="content  w-full grid md:grid-cols-2 md:gap-5 xl:hidden">
-                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[100%] mx-auto h-[500px] md:h-[500px] lg:h-[600px] xl:min-h-[1000px]">
                             <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
@@ -184,7 +184,7 @@ export default function Home() {
                                 />
                             </div>
                         </div>
-                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[100%] mx-auto h-[500px] md:h-[500px] lg:h-[600px] xl:min-h-[1000px]">
                             <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
@@ -203,7 +203,7 @@ export default function Home() {
                                 />
                             </div>
                         </div>
-                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[100%] mx-auto h-[500px] md:h-[500px] lg:h-[600px] xl:min-h-[1000px]">
                             <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
@@ -222,7 +222,7 @@ export default function Home() {
                                 />
                             </div>
                         </div>
-                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[unset] mx-auto h-[500px] md:h-[500px] xl:min-h-[1000px]">
+                        <div className="project mb-2.5 lg:mb-0 grid grid-rows-[30%1fr] w-full sm:w-[400px] md:w-[100%] mx-auto h-[500px] md:h-[500px] lg:h-[600px] xl:min-h-[1000px]">
                             <div className="text  flex items-start justify-center flex-col xl:pl-[130px]">
                                 <h3 className="text-xl pb-1">Project Name</h3>
                                 <p className="leading-5">
