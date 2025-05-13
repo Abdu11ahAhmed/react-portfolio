@@ -19,6 +19,17 @@ body.active::selection {
     color: #070707;
     background: #f9f9f9;
 }
+/* Globally or in a module CSS file */
+.inertset .active {
+    background-color: var(--foreground);
+    color: var(--background);
+    border-color: var(--foreground);
+}
+.pudget .active {
+    background-color: var(--foreground);
+    color: var(--background);
+    border-color: var(--foreground);
+}
 
 body {
     --background: #ffffff;

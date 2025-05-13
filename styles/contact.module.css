@@ -1,0 +1,19 @@
+.interested {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    width: 50%;
+}
+.interested li.active{
+    background: green;
+}
+@media screen and (max-width: 1500px) {
+    .interested {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .interested {
+        width: 100%;
+    }
+}

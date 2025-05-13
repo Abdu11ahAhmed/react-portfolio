@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
 function Navbar() {
-    const NavLinks = ["works", "contact"];
+    const NavLinks = ["works", "contact", "About"];
     const logo = "PRO";
     const pathname = usePathname();
 

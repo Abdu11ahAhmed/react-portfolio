@@ -2,14 +2,19 @@
 import Link from "next/link";
 
 function Footer() {
-    let footerLinks = ["works", "contact"];
+    let footerLinks = ["works", "contact", "About"];
     let logo = "Programmer";
     let footerSocail = ["UpWork", "facebook", "twitter", "linkedin"];
 
     return (
         <>
-            <footer className="h-[300px] border grid grid-cols-3 py-16">
-                <div className="logo border">
+            <footer
+                className="h-[300px]  grid py-16"
+                style={{
+                    gridTemplateColumns: "40% 1fr 1fr",
+                }}
+            >
+                <div className="logo">
                     <Link href="/" className="capitalize text-lg leading-0">
                         {logo}
                     </Link>
@@ -20,7 +25,7 @@ function Footer() {
                         &copy; {new Date().getFullYear()} {logo}. All Rights
                     </p>
                 </div>
-                <ul id="links" className="border">
+                <ul id="links">
                     <li className="pb-0.5">Main Links</li>
                     <li key="Home">
                         <Link href="/" className="py-1 text-sm capitalize">
@@ -38,7 +43,7 @@ function Footer() {
                         </li>
                     ))}
                 </ul>
-                <ul className="border">
+                <ul>
                     <li className="pb-0.5">Socail Links</li>
                     {footerSocail.map((link) => (
                         <li key={link}>
